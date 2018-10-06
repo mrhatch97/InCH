@@ -1,0 +1,10 @@
+[MeterNetworkHist]
+Meter=Histogram
+MeterStyle=MeterStyleGraph
+MeasureName=MeasureNetIn
+MeasureName2=MeasureNetOut
+Y=0R
+PrimaryColor=#DLColor#
+SecondaryColor=#ULColor#
+BothColor=#MixColor#
+DynamicVariables=1
