@@ -5,28 +5,53 @@ InCH
 ## Functionality
 ### System Resource Monitoring
 A main system resource gauge is provided to track CPU and RAM usage. CPU usage is computed as percentage of total clock time utilized by all processes other than the idle process, across all cores. RAM usage is computed as utilized physical memory.
+
 ![system gauge](img/example_main.png)
 
 Disk net read-write throughput can be displayed instantaneously as well as over time in graphical format. Disk capacity is also shown. Up to two disks supported.
 
+![drive monitor](img/example_drives.png)
+
 Network instantaneous up and down throughput, throughput over time as a graph, LAN IP, and WAN IP can be displayed. Cursor over LAN IP to reveal WAN IP.
 
-A per-core CPU utilization monitor is provided, with histogram for tracking utilization over time. Requires CoreTemp.
+![network monitor](img/example_network.png)
 
-A per-core CPU temperature monitor is provided. Includes displays for CPU frequency and voltage.
+A skin that combines the network and drive monitors is also provided.
+
+![combined network and drives](img/example_drivenet.png)
+
+A per-core CPU utilization and temperature monitor is provided, with histogram for tracking utilization over time. Also displays CPU clock frequency and voltage. Requires CoreTemp.
+
+![core temp monitor](img/example_coretemp.png)
+
 ### Timekeeping
 A standard digital clock + date display are available, with customizable locale and format.
 
+![clock](img/example_clock.png)
+
 A system uptime clock and day-of-year/week-of-year counter are also available.
+
+![uptime](img/example_uptime.png)
+
+![counts](img/example_counts.png)
 
 ### Audio Control
 A system audio output control is available, with clickable volume control and muting.
 
+![audio control](img/example_audio.png)
+
 A 10-band frequency visualizer with stereo + input level monitor is available.
+
+![stereo visualizer](img/example_visualizer.gif)
 
 A 10-band frequency visualizer with 7.1 input level monitor is also provided.
 
+![surround visualizer](img/example_visualizer_71.gif)
+
 A media player controller is provided. This requires an active WebNowPlaying connection (through Spicetify or WNP's browser plugin). Volume control and shuffle/repeat buttons are clickable. Designed to work best with Spotify.
+
+![media player](img/example_player.png)
+
 ## Installation & Optional Dependencies
 1. Download and install the latest version of Rainmeter (instructions here), if you have not already done so.
 2. Download the latest .rmskin release from GitHub.
