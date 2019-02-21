@@ -169,14 +169,23 @@ VisualizerAltPort=Input
 RMSAttack=300
 RMSDecay=750
 
+PeakAttack=300
+PeakDecay=750
+
 FFTSensitivity=55
 FFTSize=512
 FFTAttack=30
 FFTDecay=300
 
 VisualizerCellHeight=7
+VisualizerCellPadding=1
+VisualizerCellHeightPadded=(#VisualizerCellHeight#+#VisualizerCellPadding#)
 VisualizerCellRadius=3
 VisualizerWidth=12
+VisualizerHeight=(#VisualizerCellHeightPadded#*15-#VisualizerCellPadding#)
+VisualizerPeakWidth=8
+VisualizerPeakHeight=8
+VisualizerPeakMidpoint=(#VisualizerPeakHeight#/2)
 FFTWidth=20
 FFTHeight=132
 
