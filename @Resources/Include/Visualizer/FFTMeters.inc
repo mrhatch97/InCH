@@ -2,8 +2,8 @@
 Meter=Bar
 MeasureName=MeasureBand0
 MeterStyle=MeterStyleVisualizerBar
-X=0
-Y=0
+X=4
+Y=5
 
 [MeterBand1]
 Meter=Bar

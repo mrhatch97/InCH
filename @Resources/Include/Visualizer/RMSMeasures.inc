@@ -7,7 +7,7 @@ Type=RMS
 
 [MeasureAudioRMSLeft]
 Measure=Calc
-Formula=(Floor(MeasureAudioRMSRightRaw * 15.0) / 15.0)
+Formula=(1/15) * Floor(MeasureAudioRMSLeftRaw / (1/15))
 
 [MeasureAudioRMSRightRaw]
 Measure=Plugin
@@ -18,4 +18,4 @@ Type=RMS
 
 [MeasureAudioRMSRight]
 Measure=Calc
-Formula=(Floor(MeasureAudioRMSRightRaw * 15.0) / 15.0)
+Formula=(1/15) * Floor(MeasureAudioRMSRightRaw / (1/15))
